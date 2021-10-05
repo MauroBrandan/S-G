@@ -1,0 +1,33 @@
+:root {
+	--primary-color: #009f77;
+	--secondary-color: #fff;
+	--third-color: #294283;
+	--accent-color: #ae55e9;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	color: var(--secondary-color);
+	font-family: 'Poppins', sans-serif;
+	background-color: var(--secondary-color);
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
