@@ -11,6 +11,7 @@
 		/>
 		<link rel="stylesheet" href="./styles/styles.css" />
 		<link rel="stylesheet" href="./styles/desktop.css" media="(min-width: 1024px)" />
+		<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 		<title>S&G | Encomiendas</title>
 	</head>
 	<body>
@@ -19,10 +20,10 @@
 			<div class="header__info">
 				<h1>Transporte, logística y distribución</h1>
 				<p>
-					Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-					Lorem Ipsum has been the industry's standard dummy text ever since the
-					1500s, when an unknown printer took a galley of type and scrambled it to
-					make a type specimen book.
+					Trabajamos para cubrir las necesidades de distribución de tus productos en
+					toda la provincia de Tucumán. Ayudamos a que tu negocio crezca y pueda
+					llegar a todos tus clientes, sin tener que esperar más de 48hs y con
+					precios económicos.
 				</p>
 				<div>
 					<button class="button-primary">I need help</button>
@@ -33,15 +34,11 @@
 		<main>
 			<section class="about-us">
 				<div class="about-us__info-one">
-					<h2>Lorem Ipsum</h2>
+					<h2>Trabajemos juntos</h2>
 					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting
-						industry. Lorem Ipsum has been the industry's standard dummy text ever
-						since the 1500s, when an unknown printer took a galley of type and
-						scrambled it to make a type specimen book. It has survived not only five
-						centuries, but also the leap into electronic typesetting, remaining
-						essentially unchanged. It was popularised in the 1960s with the release
-						of Letraset
+						Podemos ser tu aliado estratégico para ayudarte a potenciar tus ventas y
+						a consolidar el e-commerce de tu empresa. Ofrecemos un servicio logístico
+						fácil, rápido, económico y seguro
 					</p>
 					<div>
 						<button class="button-primary">I need help</button>
@@ -51,20 +48,15 @@
 				<div class="about-us__info-two">
 					<h2>Sobre nosotros</h2>
 					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting
-						industry. Lorem Ipsum has been the industry's standard dummy text ever
-						since the 1500s, when an unknown printer took a galley of type and
-						scrambled it to make a type specimen book. It has survived not only five
-						centuries, but also the leap into electronic typesetting, remaining
-						essentially unchanged. It was popularised in the 1960s with the release
-						of Letraset sheets containing Lorem Ipsum passages, and more recently
-						with desktop publishing software like Aldus PageMaker including versions
-						of Lorem Ipsum.
+						Somos una empresa familiar que brinda servicios de Transporte, Comisión,
+						Logística y Distribución. Buscamos ser reconocida como una empresa seria,
+						eficiente, humana y responsable; referente dentro del rubro y mercado de
+						la logístico, creciendo día a día al lado de nuestros clientes.
 					</p>
 				</div>
 				<div class="img-bg"></div>
 				<div class="about-us__info-three">
-					<h2>Lorem</h2>
+					<h2>¿Por qué trabajar con nosotros?</h2>
 					<p>
 						Lorem Ipsum is simply dummy text of the printing and typesetting
 						industry. Lorem Ipsum has been the industry's standard dummy text ever
@@ -79,6 +71,45 @@
 					<button class="button-primary">I need help</button>
 				</div>
 			</section>
+			<section class="services">
+				<h2 class="services__title">Nuestros Servicios</h2>
+				<div class="services__cards-wrapper swiper mySwiper">
+					<div class="swiper-wrapper">
+						<article class="services__card swiper-slide">
+							<img src="./assets/example.png" alt="" />
+							<h2>Transporte</h2>
+							<p>
+								Llevamos todo tipo de carga, contamos con una capacidad de carga de
+								hasta 800kg.
+							</p>
+						</article>
+						<article class="services__card swiper-slide">
+							<img src="./assets/example.png" alt="" />
+							<h2>Comisión</h2>
+							<p>Brindamos servicio de mensajería en nuestros destinos.</p>
+						</article>
+						<article class="services__card swiper-slide">
+							<img src="./assets/example.png" alt="" />
+							<h2>Logística</h2>
+							<p>
+								Coordinamos gestionamos y transportamos tu mercadería desde el inicio
+								del recorrido hasta la llegada a destino.
+							</p>
+						</article>
+						<article class="services__card swiper-slide">
+							<img src="./assets/example.png" alt="" />
+							<h2>Distribución</h2>
+							<p>
+								Nos encargamos de que todos tus productos lleguen a todos tus
+								clientes.
+							</p>
+						</article>
+					</div>
+				</div>
+			</section>
 		</main>
+
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+		<script src="./main.js"></script>
 	</body>
 </html>
