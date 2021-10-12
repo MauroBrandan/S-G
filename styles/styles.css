@@ -30,6 +30,7 @@ h2 {
 
 a {
 	text-decoration: none;
+	color: inherit;
 }
 
 ul {
@@ -157,8 +158,61 @@ main {
 
 .swiper {
 	width: 320px;
-	/* height: 240px; */
 }
+
+/* ----- Contact ----- */
+.contact {
+	grid-column: 1/4;
+}
+
+.contact__title {
+	width: 100%;
+	padding: 0 5%;
+	color: var(--secondary-color);
+	background-color: var(--primary-color);
+}
+
+.contact-call {
+	text-align: center;
+}
+
+.contact-call ul {
+	width: 155px;
+	margin: 0 auto;
+}
+
+.contact-call ul li {
+	display: flex;
+	align-items: center;
+}
+
+.contact-call .call-icon {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	margin-right: 24px;
+	background-image: url('../assets/call-icon.svg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.contact-call .whatsapp-icon {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background-image: url('../assets/whatsapp-icon.svg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.contact-location {
+	margin-top: 32px;
+	padding: 0 5%;
+	text-align: center;
+}
+
 /* ----- MEDIA QUERIES ----- */
 
 @media only screen and (min-width: 768px) {
