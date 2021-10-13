@@ -7,6 +7,7 @@
 
 html {
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
 *,
@@ -23,12 +24,23 @@ body {
 	grid-template-columns: 5% 1fr 5%;
 }
 
-h1,
-h2 {
+h1 {
+	font-size: 2rem;
 	color: var(--third-color);
 }
 
+h2 {
+	margin: 16px 0;
+	font-size: 2rem;
+	color: var(--third-color);
+}
+
+p {
+	font-size: 1.2rem;
+}
+
 a {
+	font-size: 1.2rem;
 	text-decoration: none;
 	color: inherit;
 }
@@ -41,6 +53,7 @@ ul {
 
 .button-primary {
 	padding: 16px;
+	font-size: 1rem;
 	font-weight: bold;
 	border: none;
 	border-top-right-radius: 12px;
@@ -50,15 +63,9 @@ ul {
 	cursor: pointer;
 }
 
-.button-secondary {
-	padding: 16px;
-	border: none;
-	cursor: pointer;
-	background-color: var(--accent-color);
-}
-
 .button-no-bg {
 	padding: 16px;
+	font-size: 1rem;
 	font-weight: bold;
 	border: none;
 	color: var(--secondary-color);
@@ -135,6 +142,7 @@ main {
 /* ----- SERVICES ----- */
 .services {
 	grid-column: 1/4;
+	margin-top: 32px;
 }
 
 .services__title {
@@ -177,7 +185,7 @@ main {
 }
 
 .contact-call ul {
-	width: 155px;
+	width: 185px;
 	margin: 0 auto;
 }
 
