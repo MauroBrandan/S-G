@@ -11,4 +11,7 @@ var swiper = new Swiper('.mySwiper', {
 			translate: ['120%', 0, -500],
 		},
 	},
+	pagination: {
+		el: '.swiper-pagination',
+	},
 })

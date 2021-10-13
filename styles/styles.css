@@ -168,9 +168,18 @@ main {
 	width: 320px;
 }
 
+.swiper-pagination.swiper-pagination-bullets.swiper-pagination-horizontal {
+	bottom: -5px;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+	background-color: var(--third-color);
+}
+
 /* ----- Contact ----- */
 .contact {
 	grid-column: 1/4;
+	margin-top: 32px;
 }
 
 .contact__title {
