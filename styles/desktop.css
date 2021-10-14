@@ -100,21 +100,58 @@ main {
 /* ----- SERVICES ----- */
 
 .services {
-	grid-column: 2/4;
+	grid-column: 1/5;
 	grid-row: 2/3;
-
 	margin-top: 200px;
-	border: 1px solid black;
+}
+
+.services h2 {
+	margin: 0;
+	padding-top: 32px;
+	padding-bottom: 32px;
 }
 
 .slider-wrapper {
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
+	margin: 120px 0;
 }
 
 .services__card {
-	width: 300px;
+	width: 400px;
+	margin: 24px 0;
+	border-radius: 24px;
+	box-shadow: 0px 4px 50px rgba(77, 107, 185, 0.15);
+}
+
+.services__card p,
+.services__card h2 {
+	padding: 12px;
+}
+
+/* ----- CONTACT ----- */
+.contact {
+	grid-column: 1/5;
+	margin: 0;
+
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.contact h2 {
+	margin: 0;
+	padding-top: 32px;
+	padding-bottom: 32px;
+	flex-basis: 100%;
+}
+
+.contact-call {
+	flex-basis: 50%;
+}
+
+.contact-location {
+	flex-basis: 50%;
 }
 
 /* ----- MEDIA QUERIES ----- */

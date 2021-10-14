@@ -48,3 +48,15 @@ ScrollReveal().reveal('.about-us__info-three', {
 	origin: 'top',
 	distance: '-100px',
 })
+
+ScrollReveal().reveal('.services > h2', {
+	duration: 2000,
+	origin: 'right',
+	distance: '-100px',
+})
+
+ScrollReveal().reveal('.contact > h2', {
+	duration: 2000,
+	origin: 'right',
+	distance: '-100px',
+})
